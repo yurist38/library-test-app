@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "rimraf -rf dist/* && parcel build src/index.html",
+    "build:ghpages": "rimraf -rf dist/* && parcel build src/index.html --public-url /library-test-app/",
     "lint": "tslint src/**/*.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
