@@ -1,0 +1,36 @@
+{
+  "name": "library-test-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.ts",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "rimraf -rf dist/* && parcel build src/index.html",
+    "lint": "tslint src/**/*.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "staticFiles": {
+    "staticPath": "public",
+    "watcherGlob": "**"
+  },
+  "devDependencies": {
+    "@types/node": "12.0.0",
+    "parcel-bundler": "1.12.3",
+    "parcel-plugin-static-files-copy": "2.0.0",
+    "rimraf": "2.6.3",
+    "sass": "1.20.1",
+    "tslint": "5.16.0",
+    "typescript": "3.4.5"
+  },
+  "dependencies": {
+    "@webcomponents/custom-elements": "1.2.4",
+    "@webcomponents/webcomponentsjs": "2.2.10",
+    "redux": "4.0.1",
+    "redux-devtools-extension": "2.13.8",
+    "redux-observable": "1.1.0",
+    "rxjs": "6.5.2",
+    "timeago.js": "4.0.0-beta.2"
+  }
+}

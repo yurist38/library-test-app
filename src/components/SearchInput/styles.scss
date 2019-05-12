@@ -1,0 +1,41 @@
+input {
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
+  line-height: 40px;
+  height: 40px;
+  border: 1px solid var(--main-color);
+  border-radius: 20px;
+  padding: 0 20px;
+  background-color: transparent;
+  color: var(--text-color);
+  width: 100%;
+  outline: none;
+}
+
+.fas {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 20px;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  cursor: pointer;
+  transition: all .2s linear;
+  width: 40px;
+  text-align: center;
+
+  &.fa-microphone {
+    color: var(--main-color);
+    &:hover {
+      color: var(--active-color);
+    }
+  }
+
+  &.fa-microphone-slash {
+    color: #ff0000;
+    &:hover {
+      color: var(--text-color);
+    }
+  }
+}
