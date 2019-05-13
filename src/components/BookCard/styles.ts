@@ -7,7 +7,6 @@ export default `
   display: flex;
   flex-direction: row;
   align-items: stretch;
-  left: -100%;
 }
 
 .message {
