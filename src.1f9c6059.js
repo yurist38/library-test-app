@@ -495,4 +495,4 @@ var o=arguments[3];Object.defineProperty(exports,"__esModule",{value:!0}),export
 },{"./SearchInput":"IPnF"}],"7QCb":[function(require,module,exports) {
 "use strict";var e=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(exports,"__esModule",{value:!0}),require("@webcomponents/custom-elements"),require("@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js");var o=e(require("./App"));require("./components/BookCard"),require("./components/BooksCarousel"),require("./components/SearchButton"),require("./components/SearchInput"),window.addEventListener("load",function(){new o.default});
 },{"@webcomponents/custom-elements":"DdAn","@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js":"KR7x","./App":"02H6","./components/BookCard":"FiQS","./components/BooksCarousel":"lRF0","./components/SearchButton":"iC5R","./components/SearchInput":"2Ijw"}]},{},["7QCb"], null)
-//# sourceMappingURL=/src.1f9c6059.js.map
+//# sourceMappingURL=/library-test-app/src.1f9c6059.js.map
