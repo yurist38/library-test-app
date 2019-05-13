@@ -1,6 +1,6 @@
 # library-test-app
 
-Test library application.
+Test library application. Deployed to [yurist38.github.io/library-test-app](https://yurist38.github.io/library-test-app/).
 
 ## Stack
 * TypeScript
